@@ -22,4 +22,5 @@ jobs:
         python -m pip install --upgrade pip      
     - name: Run tests
       run: |
+        cd python
         python -m unittest test_gilded_rose.py
